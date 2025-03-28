@@ -1,41 +1,12 @@
 itemGroup.tabHFR=xRadar
 
-potion.hfr_emp=EMP
-
 death.attack.blast=%1$s was obliterated.
 death.attack.zyklon=%1$s died from natural causes.
 death.attack.wire=%1$s got tangled in barbed wire.
 
-hfr_steam.name=Steam
-tile.steam.name=Steam
-tile.oil.name=Crude Oil
-hfr_oil.name=Crude Oil
-tile.gas.name=Natural Gas
-hfr_gas.name=Natural Gas
-tile.petroil.name=Bunker Fuel
-hfr_petroil.name=Bunker Fuel
-tile.diesel.name=Diesel
-hfr_diesel.name=Diesel
-tile.kerosene.name=Kerosene
-hfr_kerosene.name=Kerosene
-tile.petroleum.name=Petroleum
-hfr_petroleum.name=Petroleum
-
-tile.machine_siren.name=Siren
-container.siren=Siren
-tile.machine_radar.name=Radar
-container.radar=Radar
 tile.machine_forcefield.name=Forcefield Generator
 container.forceField=Forcefield Generator
-tile.machine_derrick.name=Oil Derrick
-container.oilWell=Oil Derrick
-tile.oil_pipe.name=Oil Drill Pipe
-tile.machine_refinery.name=Crude Oil Refinery
-container.machineRefinery=Crude Oil Refinery
-tile.railgun_plasma.name=Railgun
 container.railgun=Railgun
-tile.machine_tank.name=Oil Tank
-container.tank=Oil Tank
 tile.cannon_naval.name=16" Naval Gun
 container.naval=16" Naval Gun
 tile.hydro_core.name=Hydroelectric Dam Core Component
@@ -88,17 +59,12 @@ tile.clowder_flag_big.name=Clowder Territory Flag
 tile.clowder_cap.name=Clowder Cap Point (ALSO DON'T USE THIS ONE AS WELL)
 tile.clowder_conquerer.name=Clowder Conquest Flag
 
-tile.rbmk_element.name=RBMK Fuel Rod
-tile.rbmk_rods.name=RBMK Control Rods
 tile.block_graphite.name=Block of Graphite
 tile.block_boron.name=Block of Boron
 
 tile.barbed_wire.name=Barbed Wire
 
 tile.display.name=Stock Market Display
-
-tile.oil_duct.name=Oil Pipe
-tile.gas_duct.name=Gas Pipe
 
 tile.concrete.name=Early Concrete
 tile.concrete_bricks.name=Cinder Blocks
@@ -111,13 +77,9 @@ tile.concrete_rocks.name=Broken Concrete
 tile.barricade.name=Sand Bags
 
 tile.temp.name=Temporary Block
-tile.ore_oil.name=Oil Deposit
 tile.soil_moon.name=Moon Soil
-tile.ore_oil_empty.name=Empty Oil Deposit
-tile.rice.name=Rice Plant
 tile.soil_mud.name=Watery Mud
 
-tile.ore_uranium.name=Uranium Ore
 tile.ore_boron.name=Boron Ore
 
 tile.uni_foundation.name=Foundation Block
@@ -126,12 +88,6 @@ tile.asphalt.name=Asphalt Road
 tile.seal_controller.name=Silo Hatch Controller
 tile.seal_frame.name=Silo Hatch Frame
 tile.seal_hatch.name=Silo Hatch
-
-tile.vault_door.name=Vault-Tec Blast Door
-tile.vault_door_dummy.name=Blast Door Dummy Block
-
-tile.vent_chlorine_seal.name=Mustard Gas Vent
-tile.chlorine_gas.name=Mustard Gas
 
 tile.hydro_wall.name=Hydroelectric Dam Wall
 tile.hydro_turbine.name=Hydroelectric Dam Turbine
@@ -146,9 +102,6 @@ tile.med_tent.name=Medical Tent
 tile.tp_tent.name=Warp Tent
 tile.statue.name=Statue
 
-tile.launch_pad.name=Missile Launch Pad
-container.launchPad=Launch Pad
-
 tile.rope.name=Rope
 item.hook.name=Grappling Hook
 
@@ -157,11 +110,6 @@ item.wand.name=ThotBeGone Anti Mob Wand
 item.wand_iron.name=Iron Wand
 item.wand_coal.name=Coal Wand
 item.battery.name=HFR Infinite Battery
-item.oil_detector.name=Oil Detector
-item.gas_mask.name=Dräger M65 Gas Mask
-item.gas_mask_grey.name=Dräger M65 Gas Mask Grey Edition
-item.gas_mask_black.name=Dräger M65 Gas Mask Black Edition
-item.graphene_vest.name=Graphene Vest
 item.clowder_banner.name=Wearable Clowder Banner
 item.lead_boots.name=Lead Boots
 item.scanner.name=Block Damage Scanner
@@ -174,8 +122,6 @@ item.miner.name=Mining Contract
 item.miner_supplies.name=Mining Supplies
 item.canary.name=Canary
 
-item.grenade_gas.name=Gas Grenade
-item.grenade_nuclear.name=Atomic Grenade
 item.grenade_boxcar.name=Giant Rotating Boxcar
 
 item.hatter.name=Hat Tool
@@ -184,23 +130,9 @@ item.cassette.name=Siren Track
 item.coil.name=Golden Coil
 item.circuit.name=Circuit
 item.magnetron.name=Magnetron
-item.uranium.name=Uranium 235 Pellet
-item.uranium_fuel.name=Enriched Uranium Fuel
-item.uranium_depleted.name=Depleted Uranium Fuel
-item.plutonium.name=Plutonium 239 Pellet
-item.americium.name=Americium 242 Pellet
 item.upgrade_radius.name=Forcefield Radius Upgrade
 item.upgrade_health.name=Forcefield Shield Upgrade
 item.upgrade_bedrock.name=Forcefield Invincibility Upgrade
-
-item.canister_empty.name=Empty Canister
-item.canister_oil.name=Crude Oil Canister
-item.canister_petroil.name=Bunker Fuel Canister
-item.canister_diesel.name=Diesel Canister
-item.canister_kerosene.name=Kerosene Canister
-item.gas_empty.name=Empty Gas Tank
-item.gas_natural.name=Natural Gas Tank
-item.gas_petroleum.name=Petroleum Gas Tank
 
 item.components_wood.name=Wooden Beams
 item.components_scaffold.name=Sturdy Scaffolding
@@ -262,14 +194,6 @@ item.ingot_boron.name=Boron Ingot
 item.ingot_graphite.name=Graphite Brick
 item.ingot_graphene.name=Graphene Brick
 
-item.rice.name=Raw Rice
-item.rice_seeds.name=Rice Seeds
-item.rice_bag.name=Sack of Rice
-item.rice_sticky.name=Sticky Rice
-item.mutton_raw.name=Raw Mutton
-item.mutton_cooked.name=Cooked Mutton
-item.squid_raw.name=Raw Squid
-item.squid_cooked.name=Cooked Squid
 item.scroll.name=Scroll
 
 item.tidal_energy.name=Tidal Energy
