@@ -31,9 +31,6 @@ public class ModBlocks {
 	public static Block concrete_hazard;
 	public static Block concrete_rocks;
 
-	public static Block soil_moon;
-	public static Block soil_mud;
-
 	public static Block rice;
 	public static Block rope;
 	
@@ -43,20 +40,6 @@ public class ModBlocks {
 	public static Block temp;
 	public static Block uni_foundation;
 	public static Block asphalt;
-
-	public static Block ore_oil;
-	public static Block ore_oil_empty;
-	public static Block oil_pipe;
-
-	public static Block seal_controller;
-	public static Block seal_frame;
-	public static Block seal_hatch;
-
-	public static Block vault_door;
-	public static Block vault_door_dummy;
-
-	public static Block blast_door;
-	public static Block blast_door_dummy;
 
 	public static Block vent_chlorine_seal;
 	public static Block chlorine_gas;
