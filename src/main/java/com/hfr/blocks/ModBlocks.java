@@ -41,25 +41,11 @@ public class ModBlocks {
 	public static Block uni_foundation;
 	public static Block asphalt;
 
-	public static Block vent_chlorine_seal;
-	public static Block chlorine_gas;
 	public static Block barbed_wire;
 
 	public static Block hydro_wall;
 	public static Block hydro_turbine;
 	
-	public static Block machine_radar;
-	public static final int guiID_radar = 0;
-	public static Block machine_siren;
-	public static final int guiID_siren = 1;
-	public static Block machine_forcefield;
-	public static final int guiID_forcefield = 2;
-	public static Block launch_pad;
-	public static final int guiID_launchpad = 3;
-	public static Block machine_derrick;
-	public static final int guiID_derrick = 4;
-	public static Block machine_refinery;
-	public static final int guiID_refinery = 5;
 	public static Block machine_tank;
 	public static final int guiID_tank = 6;
 	public static Block hydro_core;
@@ -102,13 +88,9 @@ public class ModBlocks {
 	public static final int guiID_battery = 26;
 	public static Block machine_windmill;
 	public static Block machine_waterwheel;
-	public static Block machine_diesel;
-	public static final int guiID_diesel = 27;
 	public static Block machine_rift;
 	public static final int guiID_rift = 28;
-	public static Block machine_turbine;
-	public static final int guiID_turbine = 29;
-	public static Block machine_temple;
+	public static Block machine_temple
 	public static final int guiID_temple = 30;
 	public static Block clowder_conquerer;
 	public static Block officer_chest;
@@ -116,8 +98,6 @@ public class ModBlocks {
 
 	public static Block machine_alloy;
 	public static final int guiID_alloy = 31;
-	public static Block machine_sawmill;
-	public static final int guiID_sawmill = 32;
 	public static Block machine_crusher;
 	public static final int guiID_crusher = 33;
 	public static Block machine_efurnace;
@@ -141,8 +121,6 @@ public class ModBlocks {
 	public static Block tp_tent;
 	public static Block statue;
 
-	public static Block block_graphite;
-	public static Block block_boron;
 
 	public static Block display;
 
