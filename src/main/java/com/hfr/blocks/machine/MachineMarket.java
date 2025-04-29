@@ -40,6 +40,8 @@ public class MachineMarket extends BlockContainer {
 	//I already have shit going on. If you want to get involved in my personal life I will give you no end but
 	//hell to pay over this stupid fucking mod. Fuck you.
 
+	//i dont know what the fuck happened here. -Der Kaiser :/
+
 	@SideOnly(Side.CLIENT)
 	private IIcon iconTop;
 	@SideOnly(Side.CLIENT)

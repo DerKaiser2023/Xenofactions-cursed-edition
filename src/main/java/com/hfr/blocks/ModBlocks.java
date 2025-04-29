@@ -34,7 +34,6 @@ public class ModBlocks {
 	public static Block rice;
 	public static Block rope;
 	
-	public static Block ore_uranium;
 	public static Block ore_boron;
 	
 	public static Block temp;

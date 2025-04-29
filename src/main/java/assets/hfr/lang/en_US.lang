@@ -1,7 +1,7 @@
 itemGroup.tabHFR=xRadar
 
 death.attack.blast=%1$s was obliterated.
-death.attack.zyklon=%1$s died from natural causes.
+death.attack.zyklon=%1$s died from spicy gas.
 death.attack.wire=%1$s got tangled in barbed wire.
 
 tile.machine_forcefield.name=Forcefield Generator
@@ -13,13 +13,11 @@ tile.hydro_core.name=Hydroelectric Dam Core Component
 container.hydro=Hydroelectric Dam
 tile.machine_net.name=Fishing Net
 container.machineNet=Fishing Net
-tile.machine_market.name=BobShop
+tile.machine_market.name=JimmyShop
 tile.builder.name=Schematic Printer
 container.builder=Schematic Printer
 tile.machine_uni.name=University
 container.machineUni=University
-tile.machine_emp.name=EM-Jammer
-container.machineEMP=EM-Jammer
 tile.machine_grainmill.name=Grain Mill
 container.grainmill=Grain Mill
 tile.machine_blastfurnace.name=Blast Furnace
@@ -76,18 +74,10 @@ tile.concrete_hazard.name=Hazard Concrete
 tile.concrete_rocks.name=Broken Concrete
 tile.barricade.name=Sand Bags
 
-tile.temp.name=Temporary Block
-tile.soil_moon.name=Moon Soil
-tile.soil_mud.name=Watery Mud
-
 tile.ore_boron.name=Boron Ore
 
 tile.uni_foundation.name=Foundation Block
 tile.asphalt.name=Asphalt Road
-
-tile.seal_controller.name=Silo Hatch Controller
-tile.seal_frame.name=Silo Hatch Frame
-tile.seal_hatch.name=Silo Hatch
 
 tile.hydro_wall.name=Hydroelectric Dam Wall
 tile.hydro_turbine.name=Hydroelectric Dam Turbine
@@ -219,10 +209,6 @@ item.crate.name=Shipping Crate
 item.battery_rc.name=RC Battery
 item.battery_rc_2.name=HiCap RC Battery
 
-item.designator.name=GPS Rangefinder
-item.designator_range.name=Laser Rangefinder
-item.designator_manual.name=Manual Rangefinder
-item.detonator.name=Detonator
 item.remote.name=Coordinate Remote
 
 item.mace.name=Hammer of Raiding
@@ -238,22 +224,9 @@ item.mult_roman.name=Bronze Multitool
 item.mult_steel.name=Steel Multitool
 item.mult_alloy.name=Alloy Multitool
 
-item.missile_at_1.name=Tier 1 AT Missile
-item.missile_he_1.name=Tier 1 HE Missile
-item.missile_he_2.name=Tier 2 HE Missile
-item.missile_he_3.name=Tier 3 HE Missile
-item.missile_incendiary_1.name=Tier 1 Incendiary Missile
-item.missile_incendiary_2.name=Tier 2 Incendiary Missile
-item.missile_incendiary_3.name=Tier 3 Incendiary Missile
-item.missile_ab.name=Anti-Ballistic Missile
-item.missile_emp.name=EMP Missile
-item.missile_decoy.name=Decoy Missile
-item.missile_nuclear.name=Nuclear Missile
-
 item.missile_devon_1.name=DC-LACM (Tier 1)
 item.missile_devon_2.name=DC-LACM (Tier 2)
 item.missile_devon_3.name=DC-LACM (Tier 3)
-item.missile_cruise_at_1.name=Tier 1 AT Cruise Missile
 
 item.slbm_martin_1.name=SLBM Martin-2 M1
 item.slbm_martin_2.name=SLBM Martin-2 M2
