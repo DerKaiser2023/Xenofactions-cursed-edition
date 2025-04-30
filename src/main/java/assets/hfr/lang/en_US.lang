@@ -34,8 +34,6 @@ tile.machine_battery.name=Battery Block
 container.battery=Battery Block
 tile.machine_windmill.name=Large Wind Turbine
 tile.machine_waterwheel.name=Water Mill
-tile.machine_diesel.name=Diesel Generator
-container.dieselGen=Diesel Generator
 tile.machine_turbine.name=Industrial Steam Turbine
 container.machineTurbine=Industrial Steam Turbine
 tile.machine_temple.name=Temple
@@ -208,8 +206,6 @@ item.crate.name=Shipping Crate
 
 item.battery_rc.name=RC Battery
 item.battery_rc_2.name=HiCap RC Battery
-
-item.remote.name=Coordinate Remote
 
 item.mace.name=Hammer of Raiding
 item.hatchet.name=Hatchet of Province Creation
