@@ -317,24 +317,24 @@ public class CommandClowderAdmin extends CommandBase {
 		}
 	}
 	
-	//private void cmdCreate(ICommandSender sender, String name) {
-//
-	//	EntityPlayer player = getCommandSenderAsPlayer(sender);
-	//
-	//	if(Clowder.getClowderFromPlayer(player) == null) {
-	//
-	//		if(Clowder.getClowderFromName(name) == null) {
-	//			Clowder.createClowder(player, name);
-	//			sender.addChatMessage(new ChatComponentText(TITLE + "Created faction " + name + "!"));
-	//			sender.addChatMessage(new ChatComponentText(INFO + "Use /c claim to get started!"));
-	//		} else {
-	//			sender.addChatMessage(new ChatComponentText(ERROR + "This name is already taken!"));
-	//		}
-	//
-	//	} else {
-	//		sender.addChatMessage(new ChatComponentText(ERROR + "You can not create a new faction while already being in one!"));
-	//	}
-	//} ur a fuckin idiot
+	private void cmdCreate(ICommandSender sender, String name) {
+
+		EntityPlayer player = getCommandSenderAsPlayer(sender);
+	
+		if(Clowder.getClowderFromPlayer(player) == null) {
+	
+			if(Clowder.getClowderFromName(name) == null) {
+				Clowder.createClowder(player, name);
+				sender.addChatMessage(new ChatComponentText(TITLE + "Created faction " + name + "!"));
+				sender.addChatMessage(new ChatComponentText(INFO + "Use /c claim to get started!"));
+			} else {
+				sender.addChatMessage(new ChatComponentText(ERROR + "This name is already taken!"));
+			}
+	
+		} else {
+			sender.addChatMessage(new ChatComponentText(ERROR + "You can not create a new faction while already being in one!"));
+		}
+	} // ragex thought it was a good idea to disable that shit
 	
 	private void cmdDisband(ICommandSender sender, String name) {
 
