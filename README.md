@@ -5,3 +5,5 @@ a brain dead clone of RageX's Xenofactions, a fork of bobcat's fucking abominati
 credits to @RageXPrince683 for this mod that i will turn inside out.
 
 note to self: im going to strangle bobcat for shoving my brain cells to auschwitz
+
+(development has been moved due to me ruining the code)
