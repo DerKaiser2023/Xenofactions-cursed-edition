@@ -286,12 +286,12 @@ public class CommandClowder extends CommandBase {
 		if(p == 1) {
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-help {page}" + TITLE + " - The thing you just used"));
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-create <name>" + TITLE + " - Creates a faction"));
-			//sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-disband <name>" + TITLE + " - Disbands a faction, name parameter for confirmation"));
+			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-disband <name>" + TITLE + " - Disbands a faction, name parameter for confirmation"));
 			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-owner <player>" + TITLE + " - Transfers faction ownership"));
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-comrades" + TITLE + " - Shows all members of your faction"));
 			sender.addChatMessage(new ChatComponentText(COMMAND_LEADER + "-color <hexadecimal>" + TITLE + " - Sets the faction's color"));
 			sender.addChatMessage(new ChatComponentText(COMMAND_LEADER + "-motd <MotD>" + TITLE + " - Sets the faction's MotD"));
-			//sender.addChatMessage(new ChatComponentText(COMMAND_LEADER + "-rename <name>" + TITLE + " - Renames your faction"));
+			sender.addChatMessage(new ChatComponentText(COMMAND_LEADER + "-rename <name>" + TITLE + " - Renames your faction"));
 			sender.addChatMessage(new ChatComponentText(INFO + "/clowder help 2"));
 		}
 
@@ -321,7 +321,7 @@ public class CommandClowder extends CommandBase {
 
 		if(p == 4) {
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-retreat" + TITLE + " - Reatreats after 10 minutes"));
-			//sender.addChatMessage(new ChatComponentText(COMMAND + "-claim" + TITLE + " - Creates a new flag"));
+			sender.addChatMessage(new ChatComponentText(COMMAND + "-claim" + TITLE + " - Creates a new flag"));
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-balance" + TITLE + " - Displays how much prestige the faction has"));
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-deposit <amount>" + TITLE + " - Turns prestige items into digiprestige"));
 			sender.addChatMessage(new ChatComponentText(COMMAND + "-withdraw <amount>" + TITLE + " - Withdraws digiprestige as prestige items"));
@@ -441,7 +441,7 @@ public class CommandClowder extends CommandBase {
 		}
 	}
 
-	/*private void cmdInfo2(ICommandSender sender, String name) {
+	private void cmdInfo2(ICommandSender sender, String name) {
 
 		EntityPlayer player = getCommandSenderAsPlayer(sender);
 		Clowder clowder = Clowder.getClowderFromName(name);
@@ -458,7 +458,7 @@ public class CommandClowder extends CommandBase {
 		} else {
 			sender.addChatMessage(new ChatComponentText(ERROR + "This faction does not exist!"));
 		}
-	}*/
+	}// if this shit breaks imma jump off a cliff
 
 	private void cmdRename(ICommandSender sender, String name) {
 
@@ -787,15 +787,15 @@ public class CommandClowder extends CommandBase {
 		if(clowder != null) {
 
 			if(!Clowder.retreating.contains(player.getDisplayName())) {
-				//System.out.println("POV: I mog you");
+				System.out.println("POV: I mog you");
 				sender.addChatMessage(new ChatComponentText(INFO + "POV: I mog you"));
-				//clowder.notifyAll(player.worldObj, new ChatComponentText(INFO + "Player " + player.getDisplayName() + " is retreating!"));
-				//sender.addChatMessage(new ChatComponentText(INFO + "You will be automatically kicked in 10 minutes!"));
-				//Clowder.retreating.add(player.getDisplayName());
+				clowder.notifyAll(player.worldObj, new ChatComponentText(INFO + "Player " + player.getDisplayName() + " is retreating!"));
+				sender.addChatMessage(new ChatComponentText(INFO + "You will be automatically kicked in 10 minutes!"));
+				Clowder.retreating.add(player.getDisplayName());
 
-			}// else {
-				//sender.addChatMessage(new ChatComponentText(ERROR + "You are already retreating!"));
-			//}
+			} else {
+				sender.addChatMessage(new ChatComponentText(ERROR + "You are already retreating!"));
+			}
 
 		} else {
 			sender.addChatMessage(new ChatComponentText(ERROR + "You are not in any faction!"));

@@ -85,7 +85,7 @@ public class CommandClowderChat extends CommandBase {
 			return;
 		}
 		
-		/*if(args.length == 0) {
+		if(args.length == 0) {
 			sender.addChatMessage(new ChatComponentText(ERROR + "You can't message your faction without a message! (duh)"));
 			return;
 		}
@@ -105,7 +105,7 @@ public class CommandClowderChat extends CommandBase {
 			message += args[i];
 		}
 		
-		String name = "";*/
+		String name = "" // i have no fucking clue this shit will work
 	}
 
 	public static final String CHAT_KEY = "clowderChat";

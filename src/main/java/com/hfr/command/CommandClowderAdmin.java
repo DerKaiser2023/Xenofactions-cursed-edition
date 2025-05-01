@@ -108,10 +108,10 @@ public class CommandClowderAdmin extends CommandBase {
 			return;
 		}
 		
-		//if(cmd.equals("create") && args.length > 1) {
-		//	cmdCreate(sender, args[1]);
-		//	return;
-		//}
+		if(cmd.equals("create") && args.length > 1) {
+			cmdCreate(sender, args[1]);
+			return;
+		}//ragex imma kill you lmao
 		
 		if(cmd.equals("disband") && args.length > 1) {
 			cmdDisband(sender, args[1]);
@@ -149,10 +149,10 @@ public class CommandClowderAdmin extends CommandBase {
 		}
 
 		if(p == 2) {
-			//sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-create <name>" + TITLE + " - Creates a faction"));
+			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-create <name>" + TITLE + " - Creates a faction"));
 			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-disband <name>" + TITLE + " - Disbands a faction, name parameter for confirmation"));
 			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-rename <name>" + TITLE + " - Renames your faction"));
-			//sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-info" + TITLE + " - Shows info on your faction"));
+			sender.addChatMessage(new ChatComponentText(COMMAND_ADMIN + "-info" + TITLE + " - Shows info on your faction"));
 		}
 	}
 	
