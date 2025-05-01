@@ -317,6 +317,7 @@ public class CommandClowderAdmin extends CommandBase {
 		}
 	}
 	
+	/*
 	private void cmdCreate(ICommandSender sender, String name) {
 
 		EntityPlayer player = getCommandSenderAsPlayer(sender);
@@ -333,8 +334,8 @@ public class CommandClowderAdmin extends CommandBase {
 	
 		} else {
 			sender.addChatMessage(new ChatComponentText(ERROR + "You can not create a new faction while already being in one!"));
-		}
-	} // ragex thought it was a good idea to disable that shit
+		}*/
+	} // disabled because i realized re enabling could brick the game
 	
 	private void cmdDisband(ICommandSender sender, String name) {
 
